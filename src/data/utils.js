@@ -12,7 +12,7 @@ const loadSqlQueries = async ( folderName ) => {
 	const queries = {};
 
 	for ( const sqlFile of sqlFiles ) {
-		const query = fs.readFileSync( join( filePath, sqlFile ), { encoding: "UTF-8" });
+		const query = fs.readFileSync( join( filePath, sqlFile ), { encoding: "UTF-8" } );
 		queries[ sqlFile.replace( ".sql", "" ) ] = query; //creating a [property in query object and assiging it the query read in
 	}
 	return queries;
