@@ -19,7 +19,9 @@
   "homepage": "https://github.com/adqz/Nodejs-SQL-App#readme",
   "dependencies": {
     "@hapi/hapi": "^19.1.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.0",
+    "mssql": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
